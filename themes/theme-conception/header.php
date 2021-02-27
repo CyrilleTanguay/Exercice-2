@@ -19,6 +19,7 @@
 
 	<?php wp_head(); ?>
 </head>
+<div class="clip-anim"> </div>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
