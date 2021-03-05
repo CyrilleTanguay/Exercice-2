@@ -289,6 +289,10 @@ $epaisseur : 8%;
 		justify-content: space-evenly;
 	}
 
+	.menu-toggle, .main-navigation.toggled ul {
+    display: flex;
+	}
+
 	#page {
 
 		grid-template-areas: "header header""main main""aside aside""footer footer";

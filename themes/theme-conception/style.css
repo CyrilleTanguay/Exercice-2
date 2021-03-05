@@ -890,6 +890,9 @@ h1 {
     display: flex;
     justify-content: space-evenly;
   }
+  .menu-toggle, .main-navigation.toggled ul {
+    display: flex;
+  }
   #page {
     grid-template-areas: "header header" "main main" "aside aside" "footer footer";
     grid-template-columns: 50% 50%;
